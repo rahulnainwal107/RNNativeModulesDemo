@@ -6,8 +6,8 @@
  * 2. String location: A string representing the location of the event
  */
 import {NativeModules} from 'react-native';
-const {CalendarModuleFoo} = NativeModules;
+const {CalendarModule} = NativeModules;
 interface CalendarInterface {
   createCalendarEvent(name: string, location: string): void;
 }
-export default CalendarModuleFoo as CalendarInterface;
+export default CalendarModule as CalendarInterface;
