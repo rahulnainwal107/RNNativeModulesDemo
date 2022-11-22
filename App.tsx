@@ -10,13 +10,16 @@
 
 import React from 'react';
 import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
-import NewModuleButton from './NewModuleButton';
+
+import NewModuleButton from './src/components/NewModuleButton';
+import NativeToastButton from './src/components/NativeToastButton';
 
 const App = () => {
   return (
     <SafeAreaView>
       <StatusBar barStyle={'light-content'} />
       <NewModuleButton />
+      <NativeToastButton />
     </SafeAreaView>
   );
 };
