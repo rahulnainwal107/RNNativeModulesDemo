@@ -13,6 +13,7 @@ import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 
 import NewModuleButton from './src/components/NewModuleButton';
 import NativeToastButton from './src/components/NativeToastButton';
+import ButtonForCallback from './src/components/ButtonForCallback';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <StatusBar barStyle={'light-content'} />
       <NewModuleButton />
       <NativeToastButton />
+      <ButtonForCallback />
     </SafeAreaView>
   );
 };
