@@ -14,6 +14,7 @@ import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 import NewModuleButton from './src/components/NewModuleButton';
 import NativeToastButton from './src/components/NativeToastButton';
 import ButtonForCallback from './src/components/ButtonForCallback';
+import DeviceIdNativeModule from './src/components/DeviceIdNativeModule';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <NewModuleButton />
       <NativeToastButton />
       <ButtonForCallback />
+      <DeviceIdNativeModule />
     </SafeAreaView>
   );
 };

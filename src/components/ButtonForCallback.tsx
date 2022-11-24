@@ -4,7 +4,7 @@ import {Alert} from 'react-native';
 import Button from '../components/Button';
 import NativeCallback from '../utils/CallbackModule';
 
-const NewModuleButton = () => {
+const ButtonForCallback = () => {
   const onPress = () => {
     console.log('We will invoke the native module here!');
     NativeCallback.sayHello('Rahul Nainwal', callbackFromNative);
@@ -25,4 +25,4 @@ const NewModuleButton = () => {
   );
 };
 
-export default NewModuleButton;
+export default ButtonForCallback;

@@ -19,6 +19,7 @@ public class MyAppPackage implements ReactPackage {
         modules.add(new CalendarModule(reactApplicationContext));
         modules.add(new NativeToastModule(reactApplicationContext));
         modules.add(new CallbackBasedNativeModule(reactApplicationContext));
+        modules.add(new DeviceIdNativeModule(reactApplicationContext));
         return modules;
     }
 
